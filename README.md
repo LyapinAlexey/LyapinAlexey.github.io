@@ -1,5 +1,8 @@
 # Alexey Lyapin — Portfolio
 
+[![CI](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions)
+[![Release](https://img.shields.io/github/v/release/LyapinAlexey/LyapinAlexey.github.io)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/releases/latest)
+
 A premium dark bento-style portfolio and personal landing page built for Alexey Lyapin.
 
 ## Overview

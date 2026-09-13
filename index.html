@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium Bento-style portfolio for Alexey Lyapin — backend developer, system designer, and open-source builder."
+    />
+    <title>Alexey Lyapin — Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <div class="page-shell">
+      <main class="bento-grid" id="bentoGrid">
+        <section class="card card-profile spotlight" id="about">
+          <div class="card-glow"></div>
+          <div class="profile-header">
+            <div class="avatar-wrap">
+              <img
+                src="https://avatars.githubusercontent.com/u/289455836?v=4"
+                alt="Alexey Lyapin avatar"
+              />
+              <span class="status-dot"></span>
+            </div>
+
+            <div class="profile-copy">
+              <p class="avatar-role">Backend Developer</p>
+              <h1 id="name">Alexey Lyapin</h1>
+              <p class="subtitle-line">Founder of Weatherender Foundation • Open-source maintainer</p>
+            </div>
+          </div>
+
+          <p class="bio" id="bio">
+            I build production-grade backend systems, automate architecture decisions, and turn complex ideas into resilient products.
+          </p>
+
+          <div class="profile-actions">
+            <a class="primary-btn" href="#projects">View projects</a>
+            <a class="ghost-btn" href="#connect">Contact</a>
+          </div>
+        </section>
+
+        <aside class="card card-availability spotlight">
+          <div class="status-stack">
+            <div class="status-row">
+              <span class="signal"></span>
+              <strong id="availability">Open for interesting projects</strong>
+            </div>
+            <div class="status-block" id="statusMetrics"></div>
+            <div class="status-block status-block--soft" id="statusResearch"></div>
+          </div>
+        </aside>
+
+        <section class="card card-skills spotlight" id="skills">
+          <div class="section-header">
+            <span class="mini-label">Stack</span>
+            <h3>Core capabilities</h3>
+          </div>
+          <div class="skill-groups" id="skillsList"></div>
+        </section>
+
+        <section class="card card-impact spotlight" id="impact">
+          <div class="section-header">
+            <span class="mini-label">Builder</span>
+            <h3>Builder</h3>
+          </div>
+          <div class="impact-list" id="impactList"></div>
+        </section>
+
+        <section class="card card-projects spotlight" id="projects">
+          <div class="section-header">
+            <span class="mini-label">Selected work</span>
+            <h3>Featured projects</h3>
+          </div>
+          <div class="project-list" id="projectsList"></div>
+        </section>
+
+        <aside class="card card-interests spotlight">
+          <div class="section-header">
+            <span class="mini-label">On the radar</span>
+            <h3>Interests</h3>
+          </div>
+          <div class="chip-list" id="interestsList"></div>
+        </aside>
+
+        <section class="card card-links spotlight" id="connect">
+          <div class="section-header">
+            <span class="mini-label">Connect</span>
+            <h3>Links</h3>
+          </div>
+          <div class="link-list" id="linksList"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Built by Alexey Lyapin •
+          <a href="https://github.com/LyapinAlexey" target="_blank" rel="noreferrer">GitHub</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

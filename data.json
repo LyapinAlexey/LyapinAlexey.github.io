@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "name": "Alexey Lyapin",
+    "role": "Backend Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/289455836?v=4",
+    "avatarFallback": "./images/avatar.jpg",
+    "bio": "Backend developer building production-grade systems since I was 13, with a strong focus on architecture, performance, and reliability. Preparing for a Computer Science degree and passionate about backend engineering, system design, and open source. I enjoy solving complex problems and turning ideas into resilient products.",
+    "availability": "Open to interesting projects",
+    "impact": [
+      "Founder of Weatherender Foundation",
+      "Open-source maintainer",
+      "Production-grade systems",
+      "System architecture"
+    ],
+    "research": [
+      "Distributed Systems",
+      "Database Engineering",
+      "Cloud Architecture",
+      "Query Optimization"
+    ]
+  },
+  "interests": [
+    "Backend Architecture",
+    "Database Engineering",
+    "Distributed Systems",
+    "Cloud Architecture",
+    "CI/CD Pipelines",
+    "System Design",
+    "Open Source",
+    "Algorithms & Data Structures",
+    "Competitive Programming"
+  ],
+  "skills": {
+    "Languages": ["Python", "SQL", "C", "Bash", "C++"],
+    "Backend & APIs": ["Flask", "FastAPI", "SQLAlchemy", "Alembic", "Pydantic v2", "Marshmallow"],
+    "Infra & Quality": ["Docker", "PostgreSQL", "Redis", "GitHub Actions", "Pytest", "k6", "Ruff", "Mypy", "Prometheus"],
+    "Tools": ["Git", "GitHub", "VS Code"],
+    "Currently Learning": ["C++", "AWS"]
+  },
+  "projects": [
+    {
+      "title": "Weatherender",
+      "description": "Production-grade weather platform: Flask web UI, CLI tool and an async FastAPI v2 API sharing one service layer. Includes a custom Snow Surface Condition Index algorithm for ski condition detection, Redis caching, PostgreSQL persistence, 142+ automated tests, and k6 load/stress testing. Published as a PyPI package and a Docker image on GHCR, deployed on Render + Supabase + Upstash.",
+      "tags": ["Python", "Flask", "FastAPI", "PostgreSQL", "Redis", "Docker", "CI/CD", "k6"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/Weatherender-foundation/Weatherender" },
+        { "label": "Live Demo", "url": "https://weather-7icc.onrender.com" },
+        { "label": "PyPI", "url": "https://pypi.org/project/weatherender/" }
+      ]
+    }
+  ],
+  "links": [
+    { "name": "GitHub", "url": "https://github.com/LyapinAlexey" },
+    { "name": "Telegram", "url": "https://t.me/LyapinAlexey" },
+    { "name": "X", "url": "https://x.com/Lyap1nAlexey" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/lyapinalexey" },
+    { "name": "WhatsApp", "url": "https://wa.me/79663103702" },
+    { "name": "Email", "url": "mailto:lehacomp16@gmail.com" }
+  ],
+  "themes": ["black", "blue", "green", "red", "purple", "yellow", "white"]
+}

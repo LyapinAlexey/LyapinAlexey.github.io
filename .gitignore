@@ -6,3 +6,4 @@
 
 # Local environment
 .env
+.clineignore

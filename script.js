@@ -113,15 +113,19 @@ document.addEventListener('DOMContentLoaded', () => {
       if (statusResearch) {
         const research = Array.isArray(profile.research) ? profile.research : [];
         statusResearch.innerHTML = `
-          <span class="status-label">Research & Systems</span>
-          ${research.map((item) => `<span class="status-pill status-pill--soft">${item}</span>`).join('')}
+          <div class="status-label-block">
+            <span class="status-label">Research & Systems</span>
+          </div>
+          <div class="status-tags">
+            ${research.map((item) => `<span class="status-pill status-pill--soft">${item}</span>`).join('')}
+          </div>
         `;
       }
 
       const impactList = document.getElementById('impactList');
       if (impactList) {
-        const impact = Array.isArray(profile.impact) ? profile.impact : [];
-        impactList.innerHTML = impact
+        const builder = Array.isArray(profile.builder) ? profile.builder : Array.isArray(profile.impact) ? profile.impact : [];
+        impactList.innerHTML = builder
           .map((item) => `<div class="impact-item"><span class="impact-dot"></span><span>${item}</span></div>`)
           .join('');
       }

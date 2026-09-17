@@ -9,8 +9,14 @@
     "impact": [
       "Founder of Weatherender Foundation",
       "Open-source maintainer",
-      "Production-grade systems",
+      "Production-grade systems builder",
       "System architecture"
+    ],
+    "builder": [
+      "Clean Architecture",
+      "Test-Driven Development",
+      "Performance-First Mindset",
+      "Automation & Observability"
     ],
     "research": [
       "Distributed Systems",

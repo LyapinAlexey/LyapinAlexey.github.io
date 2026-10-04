@@ -1,0 +1,30 @@
+name: Ideas & feature requests
+about: Suggest an improvement to the portfolio
+title: "[Idea]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for the portfolio? Describe the problem or opportunity it addresses.
+  - type: textarea
+    id: pitch
+    attributes:
+      label: What is your idea?
+      description: Briefly describe the feature or improvement you would like to see.
+      placeholder: I propose to add...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Why would this be useful to visitors or maintainers?
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible implementation (optional)
+      description: Share any implementation ideas or useful examples.

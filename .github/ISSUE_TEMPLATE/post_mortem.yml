@@ -1,0 +1,48 @@
+name: Resolved deployment incident
+description: Document a significant, resolved outage or deployment problem
+title: "[incident]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What was unavailable or broken, and for how long?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Which page, feature, or visitors were affected?
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline & Detection
+      description: When was it noticed, how was it reported, and when was service restored?
+      placeholder: |
+        - Started:
+        - Detected:
+        - Resolved:
+    validations:
+      required: true
+  - type: textarea
+    id: root_cause
+    attributes:
+      label: Root Cause
+      description: What caused the problem?
+    validations:
+      required: true
+  - type: textarea
+    id: resolution
+    attributes:
+      label: Resolution
+      description: What restored the site? Link a relevant pull request if available.
+    validations:
+      required: true
+  - type: textarea
+    id: follow_ups
+    attributes:
+      label: Follow-ups
+      description: What should be done to prevent or detect a similar issue?

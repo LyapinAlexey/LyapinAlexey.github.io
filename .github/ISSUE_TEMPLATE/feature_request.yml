@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an improvement to the portfolio website
+title: "[feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the portfolio. Please describe the need or problem before suggesting an implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What would you like to improve, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed change
+      description: Describe the outcome you have in mind. Screenshots or examples are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there other ways to address this?
+  - type: textarea
+    id: scope
+    attributes:
+      label: Additional context
+      description: Add any relevant screenshots, links, constraints, or related issues.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched existing issues and discussions for duplicates.
+          required: true

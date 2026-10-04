@@ -2,10 +2,19 @@
 
 [![CI](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions)
 [![Release](https://img.shields.io/github/v/release/LyapinAlexey/LyapinAlexey.github.io)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/releases/latest)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
 
 A premium dark bento-style portfolio and personal landing page built for Alexey Lyapin.
 
 ## Overview
+
+> Live preview of the portfolio website.
+```url
+https://lyapinalexey.github.io/
+```
 
 This project is a clean, modern portfolio website designed to look premium and compact while staying fully static and easy to maintain. It is structured around a strong personal brand and content-driven rendering from a local JSON file.
 
@@ -45,10 +54,34 @@ The site is optimized for:
 ├── data.json
 ├── images/
 │   └── icons/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml
+│   │   ├── feature_request.yml
+│   │   └── post_mortem.yml
+│   ├── DISCUSSION_TEMPLATE/
+│   │   ├── ideas.yml
+│   │   └── qna.yml
+│   ├── CODEOWNERS
+│   ├── copilot-instructions.md
+│   ├── FUNDING.yml
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── README.md
 ├── .gitignore
-└── LICENSE (optional)
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── PRIVACY.md
+└── LICENSE
 ```
+
+## Project documents
+
+- [Contributing](CONTRIBUTING.md) — how to report issues and propose changes.
+- [Code of Conduct](CODE_OF_CONDUCT.md) — expectations for project participants.
+- [Security Policy](SECURITY.md) — how to report a vulnerability privately.
+- [Privacy Policy](PRIVACY.md) — what the site and its third-party services may process.
+- [AGPL License](LICENSE) — terms for using and distributing this project.
 
 ## Local development
 

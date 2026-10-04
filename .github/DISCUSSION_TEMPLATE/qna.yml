@@ -1,0 +1,20 @@
+name: Q&A
+about: Ask a question about the portfolio or repository
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know about the portfolio or its source code?
+      placeholder: I would like to understand...
+    validations:
+      required: true
+  - type: textarea
+    id: code_snippet
+    attributes:
+      label: Relevant details (optional)
+      description: Include relevant links, screenshots, or code snippets. Do not share secrets.
+      render: markdown

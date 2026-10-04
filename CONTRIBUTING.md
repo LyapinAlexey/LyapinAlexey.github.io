@@ -16,4 +16,5 @@ Open a GitHub issue with a clear title and enough detail to reproduce the proble
 
 There is currently no automated test or build suite. Avoid adding dependencies or a build step unless the change requires it and the reason is explained in the pull request.
 
-By submitting a contribution, you agree that it may be distributed under the repository's [AGPL License](LICENSE).
+By submitting a contribution, you agree that it may be distributed under the
+repository's [AGPL-3.0](LICENSE).

@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/actions)
 [![Release](https://img.shields.io/github/v/release/LyapinAlexey/LyapinAlexey.github.io)](https://github.com/LyapinAlexey/LyapinAlexey.github.io/releases/latest)
+![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0--or--later-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -11,10 +12,7 @@ A premium dark bento-style portfolio and personal landing page built for Alexey 
 
 ## Overview
 
-> Live preview of the portfolio website.
-```url
-https://lyapinalexey.github.io/
-```
+[View the live portfolio](https://lyapinalexey.github.io/)
 
 This project is a clean, modern portfolio website designed to look premium and compact while staying fully static and easy to maintain. It is structured around a strong personal brand and content-driven rendering from a local JSON file.
 
@@ -54,6 +52,8 @@ The site is optimized for:
 ├── data.json
 ├── images/
 │   └── icons/
+├── ASSETS.md
+├── CHANGELOG.md
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug_report.yml
@@ -67,6 +67,7 @@ The site is optimized for:
 │   ├── FUNDING.yml
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── README.md
+├── DATA_SCHEMA.md
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
@@ -81,7 +82,10 @@ The site is optimized for:
 - [Code of Conduct](CODE_OF_CONDUCT.md) — expectations for project participants.
 - [Security Policy](SECURITY.md) — how to report a vulnerability privately.
 - [Privacy Policy](PRIVACY.md) — what the site and its third-party services may process.
-- [AGPL License](LICENSE) — terms for using and distributing this project.
+- [AGPL-3.0-or-later License](LICENSE) — terms for using and distributing the current project version. Release v1.0.0 was published under MIT.
+- [Changelog](CHANGELOG.md) — notable project updates by release.
+- [Data schema](DATA_SCHEMA.md) — fields used to render portfolio content.
+- [Asset attributions](ASSETS.md) — third-party fonts, icons, and media notes.
 
 ## Local development
 
@@ -99,77 +103,18 @@ http://localhost:8000
 
 ## GitHub Pages deployment
 
-Follow these steps to publish the portfolio as a live website.
-
-### 1. Push the repository to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio website"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repository-name>.git
-git push -u origin main
-```
-
-### 2. Open GitHub Pages settings
-
-- Go to your repository on GitHub
-- Open `Settings`
-- Open `Pages`
-
-### 3. Configure Pages
-
-Under `Build and deployment`:
-
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
-
-Then click `Save`.
-
-### 4. Wait for deployment
-
-GitHub will build and publish the site automatically. This usually takes a few minutes.
-
-### 5. Open the live site
-
-Once published, the site will be available at:
-
-```text
-https://<your-username>.github.io/<repository-name>/
-```
-
-Example:
-
-```text
-https://lyapinalexey.github.io/lyapinalexey.github.io/
-```
+This repository is configured to publish the `main` branch from the repository
+root using GitHub Pages. To change or verify the setting, open
+[Settings → Pages](https://github.com/LyapinAlexey/LyapinAlexey.github.io/settings/pages)
+and check that **Deploy from a branch**, `main`, and `/ (root)` are selected.
+After pushing a change to `main`, GitHub Pages publishes the site at
+[lyapinalexey.github.io](https://lyapinalexey.github.io/).
 
 ## Content editing
 
-Most portfolio content is stored in `data.json`, which makes it easy to update:
-
-- name
-- role
-- bio
-- availability
-- impact items
-- skills
-- projects
-- links
-
-Example:
-
-```json
-{
-  "profile": {
-    "name": "Alexey Lyapin",
-    "role": "Backend Developer",
-    "bio": "..."
-  }
-}
-```
+Most rendered portfolio content is stored in `data.json`. See
+[DATA_SCHEMA.md](DATA_SCHEMA.md) for the fields the page currently reads and
+their expected formats. Check that the file remains valid JSON after editing.
 
 ## Notes
 
@@ -177,6 +122,7 @@ Example:
 - There is no build step required for deployment.
 - GitHub Pages is the recommended hosting option for this site.
 - The design can be further customized by editing `style.css` and `data.json` without changing the structure.
+- Third-party asset and font details are documented in [ASSETS.md](ASSETS.md).
 
 ## Author
 

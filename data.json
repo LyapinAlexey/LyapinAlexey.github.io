@@ -41,7 +41,7 @@
     "Backend & APIs": ["Flask", "FastAPI", "SQLAlchemy", "Alembic", "Pydantic v2", "Marshmallow"],
     "Infra & Quality": ["Docker", "PostgreSQL", "Redis", "GitHub Actions", "Pytest", "k6", "Ruff", "Mypy", "Prometheus"],
     "Tools": ["Git", "GitHub", "VS Code"],
-    "Currently Learning": ["C++", "AWS"]
+    "Currently Learning": ["C++", "AWS", "Golang"]
   },
   "projects": [
     {
@@ -60,7 +60,8 @@
     { "name": "Telegram", "url": "https://t.me/LyapinAlexey" },
     { "name": "X", "url": "https://x.com/Lyap1nAlexey" },
     { "name": "WhatsApp", "url": "https://wa.me/79663103702" },
-    { "name": "Email", "url": "mailto:alexey.lyapin.inbox@gmail.com" }
+    { "name": "Email", "url": "mailto:alexey.lyapin.inbox@gmail.com" },
+    { "name": "Discord", "url": "https://discord.com/users/1568610911583871056" }
   ],
   "themes": ["black", "blue", "green", "red", "purple", "yellow", "white"]
 }

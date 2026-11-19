@@ -70,6 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
     github: 'images/icons/github.svg',
     'vs code': 'images/icons/vscode.png',
     aws: 'images/icons/aws.png',
+    golang: 'images/icons/golang.png',
+    discord: 'images/icons/discord.svg',
     telegram: 'images/icons/telegram.svg',
     x: 'images/icons/x.svg',
     linkedin: 'images/icons/linkedin.png',
@@ -193,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
         linksList.innerHTML = (links || [])
           .map((link) => {
             const name = String(link.name || '').toLowerCase();
-            const key = name === 'github' ? 'github' : name === 'telegram' ? 'telegram' : name === 'x' ? 'x' : name === 'linkedin' ? 'linkedin' : name === 'whatsapp' ? 'whatsapp' : name === 'email' ? 'email' : 'link';
+            const key = name === 'github' ? 'github' : name === 'telegram' ? 'telegram' : name === 'x' ? 'x' : name === 'linkedin' ? 'linkedin' : name === 'whatsapp' ? 'whatsapp' : name === 'discord' ? 'discord' : name === 'email' ? 'email' : 'link';
             const icon = resolveIcon(key);
             const isImage = icon.endsWith('.svg') || icon.endsWith('.png') || icon.endsWith('.jpg') || icon.endsWith('.jpeg');
             return `
